@@ -1,0 +1,97 @@
+.first_block {
+  height: 705px;
+}
+
+.second_block, .thrid_block {
+  margin-top: 20px;
+  border: none;
+  padding-bottom: 111px;
+}
+
+.second_block .main_container .CookieYes, .second_block .main_container .WebToffee, .thrid_block .main_container .CookieYes, .thrid_block .main_container .WebToffee {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.second_block .main_container .CookieYes .back, .second_block .main_container .WebToffee .back, .thrid_block .main_container .CookieYes .back, .thrid_block .main_container .WebToffee .back {
+  width: 50%;
+  height: auto;
+}
+
+.second_block .main_container .CookieYes .info p, .second_block .main_container .WebToffee .info p, .thrid_block .main_container .CookieYes .info p, .thrid_block .main_container .WebToffee .info p {
+  margin: 30px 0;
+  line-height: 33px;
+  font-size: 16px;
+}
+
+@media (max-width: 1050px) {
+  .second_block .main_container .CookieYes .info p, .second_block .main_container .WebToffee .info p, .thrid_block .main_container .CookieYes .info p, .thrid_block .main_container .WebToffee .info p {
+    font-size: .5rem;
+    line-height: .8rem;
+  }
+}
+
+.second_block .main_container .CookieYes .info .button, .second_block .main_container .WebToffee .info .button, .thrid_block .main_container .CookieYes .info .button, .thrid_block .main_container .WebToffee .info .button {
+  width: 40%;
+  padding: 16px 10px;
+  text-align: center;
+  background: none;
+}
+
+@media (max-width: 1050px) {
+  .second_block .main_container .CookieYes .info .button, .second_block .main_container .WebToffee .info .button, .thrid_block .main_container .CookieYes .info .button, .thrid_block .main_container .WebToffee .info .button {
+    font-size: .7rem;
+  }
+}
+
+.fourth_block .main_container .info_block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 136px 0;
+}
+
+.fourth_block .main_container .info_block h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.fourth_block .main_container .info_block p {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.fourth_block .main_container .info_block .buttons_block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 308px;
+  text-align: center;
+}
+
+.fourth_block .main_container .info_block .buttons_block .button {
+  width: 161px;
+}
+
+.fourth_block .main_container .info_block .buttons_block .button_red {
+  width: 127px;
+  padding: 20px 0;
+}
+/*# sourceMappingURL=products.css.map */

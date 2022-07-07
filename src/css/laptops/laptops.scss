@@ -1,0 +1,62 @@
+.laptop {
+    padding: 0 0 100px;
+    .laptop_for_programmers {
+        display: flex;
+        flex-direction: column;
+        .prev {
+            text-align: center;
+            font-size: 32px;
+            line-height: 40px;
+            margin-top: 80px;
+            color: #b32424;
+        }
+        .line {
+            width: 40%;
+            height: 2px;
+            background-color: #b32424;
+            margin: 50px auto;
+        }
+        .laptops {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            width: 100%;
+
+            .laptops-cart {
+                width: 300px;
+                height: auto;
+                margin: 30px 5px 30px 5px;
+                display: flex;
+                flex-direction: column;
+                background-color: #FFFFFF;
+                box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
+                img {
+                    width: 150px;
+                    height: 150px;
+                    margin: 0 auto;
+                    border-bottom: 1px solid #b32424;
+                }
+                .name_and_price {
+                    margin-left: 10px;
+                    .name {
+                        font-size: 24px;
+                        margin-bottom: 10px;
+                    }
+                    .price {
+                        font-size: 24px;
+                        color: #b32424;
+                        margin: 0;
+                    }
+                }
+                .characteristic {
+                    margin-left: 10px;
+                    color: #464646ce;
+                    font-size: 16px;
+                    span {
+                        color: #000000;
+                    }
+                }
+            }
+        }
+    }
+}

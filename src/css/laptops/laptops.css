@@ -1,0 +1,88 @@
+.laptop {
+  padding: 0 0 100px;
+}
+
+.laptop .laptop_for_programmers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.laptop .laptop_for_programmers .prev {
+  text-align: center;
+  font-size: 32px;
+  line-height: 40px;
+  margin-top: 80px;
+  color: #b32424;
+}
+
+.laptop .laptop_for_programmers .line {
+  width: 40%;
+  height: 2px;
+  background-color: #b32424;
+  margin: 50px auto;
+}
+
+.laptop .laptop_for_programmers .laptops {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+}
+
+.laptop .laptop_for_programmers .laptops .laptops-cart {
+  width: 300px;
+  height: auto;
+  margin: 30px 5px 30px 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #FFFFFF;
+  -webkit-box-shadow: 0 0 10px 5px #dddddd;
+          box-shadow: 0 0 10px 5px #dddddd;
+}
+
+.laptop .laptop_for_programmers .laptops .laptops-cart img {
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+  border-bottom: 1px solid #b32424;
+}
+
+.laptop .laptop_for_programmers .laptops .laptops-cart .name_and_price {
+  margin-left: 10px;
+}
+
+.laptop .laptop_for_programmers .laptops .laptops-cart .name_and_price .name {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.laptop .laptop_for_programmers .laptops .laptops-cart .name_and_price .price {
+  font-size: 24px;
+  color: #b32424;
+  margin: 0;
+}
+
+.laptop .laptop_for_programmers .laptops .laptops-cart .characteristic {
+  margin-left: 10px;
+  color: #464646ce;
+  font-size: 16px;
+}
+
+.laptop .laptop_for_programmers .laptops .laptops-cart .characteristic span {
+  color: #000000;
+}
+/*# sourceMappingURL=laptops.css.map */

@@ -1,0 +1,204 @@
+.first_block {
+  height: 826px;
+}
+
+.first_block .main_container .info_block img {
+  margin-right: 100px;
+}
+
+@media (max-width: 1332px) {
+  .first_block .main_container .info_block img {
+    opacity: 0.3;
+    margin-right: 0;
+  }
+}
+
+.first_block .main_container .info_block .info p {
+  font-size: 28px;
+}
+
+.second_block {
+  border: none;
+}
+
+.second_block .main_container .companies ._3_carts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 148px;
+}
+
+@media (max-width: 1212px) {
+  .second_block .main_container .companies ._3_carts {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.thrid_block {
+  background: linear-gradient(268.52deg, #E3E7F6 -52.27%, rgba(227, 231, 246, 0) 138.23%);
+}
+
+.thrid_block .main_container .culture_code .info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 65px 0 97px;
+}
+
+.thrid_block .main_container .culture_code .carts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (max-width: 853px) {
+  .thrid_block .main_container .culture_code .carts {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+.thrid_block .main_container .culture_code .carts .cart {
+  width: 305px;
+  height: 278px;
+  background-color: #FFFFFF;
+  margin-bottom: 37px;
+  border-radius: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-left: 40px;
+}
+
+.thrid_block .main_container .culture_code .carts .cart h3 {
+  font-size: 28px;
+  color: #3A3A3C;
+}
+
+.thrid_block .main_container .culture_code .carts .cart p {
+  font-size: 16px;
+  color: #484C63;
+}
+
+.fourth_block .main_container .ww_are {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 50px 0 82px;
+}
+
+.fourth_block .main_container .ww_are img {
+  width: 50%;
+}
+
+@media (max-width: 988px) {
+  .fourth_block .main_container .ww_are {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+}
+
+.fifth_block .main_container .ww_do {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 150px 0 121px;
+}
+
+.fifth_block .main_container .ww_do img {
+  width: 50%;
+}
+
+@media (max-width: 988px) {
+  .fifth_block .main_container .ww_do {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.sixth_block .main_container .Join_the_squad {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 104px 0 157px;
+}
+
+@media (max-width: 988px) {
+  .sixth_block .main_container .Join_the_squad {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+}
+
+@media (max-width: 988px) {
+  .sixth_block .main_container .Join_the_squad .info {
+    margin-top: 40px;
+  }
+}
+
+.sixth_block .main_container .Join_the_squad .info p {
+  padding-bottom: 40px;
+}
+
+.sixth_block .main_container .Join_the_squad .info .button {
+  width: 168px;
+}
+
+.sixth_block .main_container .Join_the_squad .info img {
+  padding-left: 60px;
+  margin-top: 14px;
+}
+/*# sourceMappingURL=about.css.map */

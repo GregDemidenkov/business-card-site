@@ -1,0 +1,154 @@
+.first_block {
+  height: 610px;
+}
+
+.first_block .main_container .info_block img {
+  margin: 46px 0 0 0;
+  right: 0;
+}
+
+.first_block .main_container .info_block .info p {
+  margin: 40px 0;
+}
+
+.first_block .main_container .info_block .info .button {
+  width: 158px;
+}
+
+.second_block .main_container .contact_form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media (max-width: 988px) {
+  .second_block .main_container .contact_form {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+.second_block .main_container .contact_form form {
+  width: 539px;
+  height: 767px;
+  padding: 52px 0 50px;
+  -webkit-box-shadow: 0px 0px 8px rgba(22, 23, 72, 0.07), 0px 25px 35px rgba(22, 23, 72, 0.05);
+          box-shadow: 0px 0px 8px rgba(22, 23, 72, 0.07), 0px 25px 35px rgba(22, 23, 72, 0.05);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.second_block .main_container .contact_form form .name_block, .second_block .main_container .contact_form form .email_block, .second_block .main_container .contact_form form .subject_block, .second_block .main_container .contact_form form .message_block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 443px;
+  margin-bottom: 30px;
+}
+
+.second_block .main_container .contact_form form .name_block label, .second_block .main_container .contact_form form .email_block label, .second_block .main_container .contact_form form .subject_block label, .second_block .main_container .contact_form form .message_block label {
+  color: #8F90A6;
+  margin-bottom: 6px;
+}
+
+.second_block .main_container .contact_form form .name_block input, .second_block .main_container .contact_form form .name_block textarea, .second_block .main_container .contact_form form .email_block input, .second_block .main_container .contact_form form .email_block textarea, .second_block .main_container .contact_form form .subject_block input, .second_block .main_container .contact_form form .subject_block textarea, .second_block .main_container .contact_form form .message_block input, .second_block .main_container .contact_form form .message_block textarea {
+  border: 1px solid #E3E7F6;
+  border-radius: 6px;
+  font-size: 24px;
+  outline: none;
+}
+
+.second_block .main_container .contact_form form .name_block input:focus, .second_block .main_container .contact_form form .name_block textarea:focus, .second_block .main_container .contact_form form .email_block input:focus, .second_block .main_container .contact_form form .email_block textarea:focus, .second_block .main_container .contact_form form .subject_block input:focus, .second_block .main_container .contact_form form .subject_block textarea:focus, .second_block .main_container .contact_form form .message_block input:focus, .second_block .main_container .contact_form form .message_block textarea:focus {
+  border: 1px solid #8e9097;
+  outline: none;
+}
+
+.second_block .main_container .contact_form form .name_block input, .second_block .main_container .contact_form form .email_block input, .second_block .main_container .contact_form form .subject_block input, .second_block .main_container .contact_form form .message_block input {
+  height: 60px;
+  padding: 0 10px;
+}
+
+.second_block .main_container .contact_form form .name_block textarea, .second_block .main_container .contact_form form .email_block textarea, .second_block .main_container .contact_form form .subject_block textarea, .second_block .main_container .contact_form form .message_block textarea {
+  padding: 20px;
+  resize: none;
+}
+
+.second_block .main_container .contact_form form .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  width: 100%;
+}
+
+.second_block .main_container .contact_form form .wrapper .button_red {
+  width: 99px;
+  margin-left: 48px;
+  padding: 20px 0;
+  font-size: 16px;
+}
+
+.second_block .main_container .contact_form .offices {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 180px 0 0 122px;
+}
+
+@media (max-width: 988px) {
+  .second_block .main_container .contact_form .offices {
+    width: 100%;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin: 40px 0 0 0;
+  }
+}
+
+.second_block .main_container .contact_form .offices .first, .second_block .main_container .contact_form .offices .second, .second_block .main_container .contact_form .offices .thrid {
+  margin-bottom: 72px;
+}
+
+.second_block .main_container .contact_form .offices .location {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.second_block .main_container .contact_form .offices .location img {
+  margin-right: 20px;
+}
+
+.second_block .main_container .contact_form .offices p {
+  margin: 5px 0 0;
+}
+/*# sourceMappingURL=contact.css.map */

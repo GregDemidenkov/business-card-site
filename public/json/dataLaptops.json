@@ -1,0 +1,76 @@
+{
+    "laptops": [
+        {
+            "id": 0,
+            "img": "https://img.mvideo.ru/Big/30054310bb.jpg",
+            "name": "Apple MacBook Air 13",
+            "price": 118999,
+            "cpu": "Apple M1",
+            "ram": 16,
+            "graphicsCard": "Apple M1"
+        },
+        {
+            "id": 1,
+            "img": "https://img.mvideo.ru/Big/30058344bb.jpg",
+            "name": "Honor MagicBook 15",
+            "price": 79999,
+            "cpu": "AMD Ryzen 5 5500U 2.1 ГГц",
+            "ram": 16,
+            "graphicsCard": "Radeon Graphics"
+        },
+        {
+            "id": 2,
+            "img": "https://img.mvideo.ru/Pdb/1100028581079b.jpg",
+            "name": "HP 3B3E8EA",
+            "price": 71060,
+            "cpu": "Intel Core i3 1125g4 2 ГГц",
+            "ram": 8,
+            "graphicsCard": "UHD Graphics"
+        },
+        {
+            "id": 3,
+            "img": "https://img.mvideo.ru/Big/30057657bb.jpg",
+            "name": "ASUS S433JQ-EB142T",
+            "price": 71999,
+            "cpu": "Intel Core i5 1035G1 1.0 ГГц",
+            "ram": 8,
+            "graphicsCard": "GeForce MX350 2ГБ"
+        },
+        {
+            "id": 4,
+            "img": "https://img.mvideo.ru/Big/30059532bb.jpg",
+            "name": "HUAWEI MateBook 14s",
+            "price": 119999,
+            "cpu": "Intel Core i7 11370H 3.3 ГГц",
+            "ram": 16,
+            "graphicsCard": "Intel Iris Xe Graphics"
+        },
+        {
+            "id": 5,
+            "img": "https://img.mvideo.ru/Big/30061222bb.jpg",
+            "name": "HUAWEI MateBook 16",
+            "price": 99999,
+            "cpu": "AMD Ryzen 7 5800H 3.2 ГГц",
+            "ram": 16,
+            "graphicsCard": "Radeon Graphics"
+        },
+        {
+            "id": 6,
+            "img": "https://img.mvideo.ru/Pdb/30060129b.jpg",
+            "name": "Lenovo Yoga Slim 7",
+            "price": 85999,
+            "cpu": "AMD Ryzen 5 4500U 2.3 ГГц",
+            "ram": 8,
+            "graphicsCard": "Radeon"
+        },
+        {
+            "id": 7,
+            "img": "https://img.mvideo.ru/Big/30054317bb.jpg",
+            "name": "Apple MacBook Pro 13",
+            "price": 159999,
+            "cpu": "Apple M1",
+            "ram": 16,
+            "graphicsCard": "Apple M1"
+        } 
+    ]
+}

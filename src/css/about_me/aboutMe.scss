@@ -1,0 +1,128 @@
+$orange: #FF9900;
+
+.about_me {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative; 
+    overflow-x: hidden;
+    padding: 100px 0 100px;
+    box-shadow: 0 0 40px rgba(0, 0, 0, .2) inset;
+    .container {
+        position: relative;
+        width: 100%;
+        height: 1000px;
+        .circle {
+            position: absolute;
+            z-index: 2;
+            top: calc(50% - 150px);
+            left: calc(50% - 150px);
+            width: 300px;
+            height: 300px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background: $orange radial-gradient(circle at 50% 0, #FF990065, #FF990035);
+            border-radius: 100%;
+            cursor: pointer;
+            box-shadow:
+            inset rgba(0,0,0,.6) 0 -3px 8px,
+            inset rgba(252,255,255,.7) 0 3px 8px,
+            rgba(0,0,0,.8) 0 3px 8px -3px;
+            transition: all 2s ease;
+            p {
+                text-align: center;
+                font-size: large;
+                color: #FFFFFF;
+            }
+            img {
+                width: 50px;
+                height: 50px;
+            }
+        }
+        .circleClick {
+            left: 0;
+            top: 0;
+            transition: all 2s ease;
+        }
+    }
+    .wrapper {
+        position: relative;
+        z-index: 1;
+        top: calc(50% - 150px);
+        left: 0;
+        display: flex;
+        align-items: flex-start;
+        height: 500px;
+        .my_photo {
+            position: absolute;
+            width: 300px;
+            height: auto;
+            left: -100%;
+            opacity: 0;
+            transition: all 4s;
+            z-index: 1;
+        }
+        .visible_photo {
+            left:0;
+            opacity: 1;
+            transition: all 4s;
+        }
+        .info_aboutMe {
+            position: absolute;
+            right: -100%;
+            opacity: 0;
+            transition: all 2s;
+            font-family: 'Times New Roman', Times, serif;
+            z-index: 2;
+            h1 {
+                color: $orange;
+                font-size: 64px;
+                margin-top: 0;
+            }
+            p {
+                font-size: 26px;
+                line-height: 64px;
+            }
+        }
+        .visible_text {
+            right: 0;
+            opacity: 1;
+            transition: all 4s;
+        }
+
+    }
+    .cart_1, .cart_2, .cart_3 {
+        position: absolute;
+        top: 75px;
+        left: 140px;
+        width: 150px;
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        opacity: 0;
+        transition: all 2s;
+    }
+    .c1 {
+        left: calc(50% - 150px);
+        opacity: 1;
+        transition: all 4s;
+    }
+    .c2 {
+        left: calc(75% - 150px);
+        opacity: 1;
+        transition: all 4s;
+    }
+    .c3 {
+        right: 0;
+        left: calc(100% - 150px);
+        opacity: 1;
+        transition: all 4s;
+    }
+}

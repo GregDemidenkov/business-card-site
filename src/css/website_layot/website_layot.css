@@ -1,0 +1,86 @@
+.websiteLayot .main_container .prev, .websiteLayot .main_container .prev_about_hungry, .websiteLayot .main_container .prev_about_trlm, .websiteLayot .main_container .prev_about_mozi {
+  text-align: center;
+  font-size: 32px;
+  line-height: 40px;
+  margin: 80px 0;
+  color: #000000;
+}
+
+.websiteLayot .main_container .prev_about_hungry {
+  color: #E8C300;
+  border-top: 1px solid #E8C300;
+  border-bottom: 1px solid #E8C300;
+  padding: 10px 0;
+  margin: 40px 0;
+}
+
+.websiteLayot .main_container .prev_about_trlm {
+  color: #1C69D4;
+  border-top: 1px solid #1C69D4;
+  border-bottom: 1px solid #1C69D4;
+  padding: 10px 0;
+  margin: 40px 0;
+}
+
+.websiteLayot .main_container .prev_about_mozi {
+  color: #BF0830;
+  border-top: 1px solid #BF0830;
+  border-bottom: 1px solid #BF0830;
+  padding: 10px 0;
+  margin: 40px 0 0;
+}
+
+.websiteLayot .main_container .restaurant, .websiteLayot .main_container .trlm_ru, .websiteLayot .main_container .mozi {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 20px;
+}
+
+.websiteLayot .main_container .restaurant h2, .websiteLayot .main_container .trlm_ru h2, .websiteLayot .main_container .mozi h2 {
+  font-size: 56px;
+}
+
+.websiteLayot .main_container .restaurant button, .websiteLayot .main_container .trlm_ru button, .websiteLayot .main_container .mozi button {
+  padding: 20px;
+  font-size: 30px;
+  border-radius: 5px;
+  background-color: #E8C300;
+  border-style: none;
+}
+
+.websiteLayot .main_container .restaurant button a, .websiteLayot .main_container .trlm_ru button a, .websiteLayot .main_container .mozi button a {
+  text-decoration: none;
+  color: white !important;
+}
+
+.websiteLayot .main_container .trlm_ru button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-color: #1C69D4;
+  border-radius: 4px;
+}
+
+.websiteLayot .main_container .trlm_ru button p {
+  padding-right: 35px;
+  color: white;
+}
+
+.websiteLayot .main_container .mozi button {
+  color: #FFFFFF;
+  background-color: #BF0830;
+  border-radius: 6px;
+}
+/*# sourceMappingURL=website_layot.css.map */

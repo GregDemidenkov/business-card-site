@@ -1,0 +1,311 @@
+.TDL {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 20px 0 50px;
+}
+
+.prev {
+  text-align: center;
+  font-size: 32px;
+  line-height: 40px;
+  margin: 80px 0;
+  color: #000000;
+}
+
+.toDoList {
+  background-color: #F7E1A8;
+  max-width: 1200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  padding: 0 10px;
+  margin: 0 auto;
+  -webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+          box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.label {
+  font-family: 'Abril Fatface', cursive;
+}
+
+.label-second {
+  font-size: 48px;
+}
+
+.DivTasks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 2px;
+}
+
+.Alltasks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.newCheckbox {
+  display: inline-block;
+  -ms-flex-preferred-size: 5%;
+      flex-basis: 5%;
+  content: "\2713";
+  border-color: red;
+}
+
+.checked {
+  opacity: 0.4;
+}
+
+.fading {
+  -webkit-animation: fading 0.6s ease-in-out;
+          animation: fading 0.6s ease-in-out;
+}
+
+.clarification {
+  -webkit-animation: clarification 0.6s ease-in-out;
+          animation: clarification 0.6s ease-in-out;
+}
+
+.disappearance {
+  -webkit-animation: disappearance 1s ease-in-out;
+          animation: disappearance 1s ease-in-out;
+}
+
+.appearance {
+  -webkit-animation: appearance 1s ease-in-out;
+          animation: appearance 1s ease-in-out;
+}
+
+.newTask {
+  margin: 5px;
+  font-size: 30px;
+  font-family: 'Akaya Kanadaka', cursive;
+  display: inline-block;
+  -ms-flex-preferred-size: 60%;
+      flex-basis: 60%;
+}
+
+.text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+textarea {
+  background: -webkit-gradient(linear, right top, left bottom, from(#B9CEC5), to(white));
+  background: linear-gradient(to bottom left, #B9CEC5, white);
+  border: 1px solid #2B0F0E;
+  min-width: 400px;
+  max-width: 600px;
+  height: 100px;
+  max-height: 200px;
+  resize: none;
+  font-size: 25px;
+  font-family: 'Akaya Kanadaka', cursive;
+  -webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+          box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+textarea:focus {
+  outline: 1px solid #2B0F0E;
+}
+
+.Save {
+  padding: 10px 50px;
+  margin: 20px 0 10px;
+  border: 1px solid #2B0F0E;
+  font-size: 16px;
+  font-family: 'Abril Fatface', cursive;
+  background: -webkit-gradient(linear, right top, left bottom, from(#2B0F0E), to(#F7E1A8));
+  background: linear-gradient(to bottom left, #2B0F0E, #F7E1A8);
+}
+
+.Save:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(#2B0F0E), to(#F7E1A8));
+  background: linear-gradient(to bottom, #2B0F0E, #F7E1A8);
+  cursor: pointer;
+}
+
+.Save:focus {
+  outline: none;
+}
+
+.Save:active {
+  outline: none;
+  -webkit-transform: translateY(1px);
+          transform: translateY(1px);
+  color: #B9CEC5;
+}
+
+.Edit {
+  -ms-flex-preferred-size: 5%;
+      flex-basis: 5%;
+  padding: 5px;
+  margin: 10px;
+  border: 2px solid #70A8A9;
+  background: -webkit-gradient(linear, left bottom, left top, from(#70A8A9), to(#B9CEC5));
+  background: linear-gradient(to top, #70A8A9, #B9CEC5);
+  font-family: 'Abril Fatface', cursive;
+}
+
+.Edit:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(#70A8A9), to(#B9CEC5));
+  background: linear-gradient(to bottom, #70A8A9, #B9CEC5);
+}
+
+.Edit:active {
+  outline: none;
+  -webkit-transform: translateY(1px);
+          transform: translateY(1px);
+  color: #B9CEC5;
+}
+
+.Edit:focus {
+  outline: none;
+}
+
+.Delete {
+  -ms-flex-preferred-size: 5%;
+      flex-basis: 5%;
+  padding: 5px;
+  margin: 10px;
+  border: 2px solid #C49032;
+  background: -webkit-gradient(linear, left bottom, left top, from(#C49032), to(#E2A330));
+  background: linear-gradient(to top, #C49032, #E2A330);
+  font-family: 'Abril Fatface', cursive;
+}
+
+.Delete:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(#C49032), to(#E2A330));
+  background: linear-gradient(to bottom, #C49032, #E2A330);
+}
+
+.Delete:active {
+  outline: none;
+  -webkit-transform: translateY(1px);
+          transform: translateY(1px);
+  color: #B9CEC5;
+}
+
+.Delete:focus {
+  outline: none;
+}
+
+.line-one {
+  width: 100%;
+  height: 2px;
+  background-color: #2B0F0E;
+  margin: 10px 0;
+}
+
+@-webkit-keyframes fading {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0.4;
+  }
+}
+
+@keyframes fading {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0.4;
+  }
+}
+
+@-webkit-keyframes clarification {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes clarification {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes disappearance {
+  from {
+    padding-left: 0;
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    margin-right: 100px;
+  }
+}
+
+@keyframes disappearance {
+  from {
+    padding-left: 0;
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    margin-right: 100px;
+  }
+}
+
+@-webkit-keyframes appearance {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes appearance {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/*# sourceMappingURL=toDoList.css.map */

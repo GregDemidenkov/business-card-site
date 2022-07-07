@@ -1,0 +1,68 @@
+.websiteLayot {
+    .main_container {
+        .prev, .prev_about_hungry, .prev_about_trlm, .prev_about_mozi {
+            text-align: center;
+            font-size: 32px;
+            line-height: 40px;
+            margin: 80px 0;
+            color: #000000;
+        }
+        .prev_about_hungry {
+            color: #E8C300;
+            border-top: 1px solid #E8C300;
+            border-bottom: 1px solid #E8C300;
+            padding: 10px 0;
+            margin: 40px 0;
+        }.prev_about_trlm {
+            color: #1C69D4;
+            border-top: 1px solid #1C69D4;
+            border-bottom: 1px solid #1C69D4;
+            padding: 10px 0;
+            margin: 40px 0;
+        }.prev_about_mozi {
+            color: #BF0830;
+            border-top: 1px solid #BF0830;
+            border-bottom: 1px solid #BF0830;
+            padding: 10px 0;
+            margin: 40px 0 0;
+        }
+        .restaurant, .trlm_ru, .mozi {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 20px;
+            h2 {
+                font-size: 56px;
+            }
+            button {
+                padding: 20px;
+                font-size: 30px;
+                border-radius: 5px;
+                background-color: #E8C300;
+                border-style: none;
+                a {
+                    text-decoration: none;
+                    color:white !important;
+                }
+            }
+        }
+
+        .trlm_ru button {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            background-color: #1C69D4;
+            border-radius: 4px;
+            p {
+                padding-right: 35px;
+                color:white;
+            }
+        }
+        
+        .mozi button {
+            color: #FFFFFF;
+            background-color: #BF0830;
+            border-radius: 6px;
+        }
+    }
+}

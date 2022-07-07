@@ -1,0 +1,126 @@
+.first_block {
+    height: 826px;
+    .main_container .info_block {
+        img {
+            margin-right: 100px; 
+            @media(max-width: 1332px) {
+                opacity: 0.3;
+                margin-right: 0;
+            }
+        }
+        .info p {
+            font-size: 28px;
+        }
+    }
+}
+
+.second_block {
+    border: none;
+    .main_container .companies {
+        ._3_carts {
+            display: flex;
+            align-items: center;
+            margin-top: 148px;
+            @media(max-width: 1212px) {
+                flex-direction: column;
+            }
+        }
+    }
+}
+
+.thrid_block {
+    background: linear-gradient(268.52deg, #E3E7F6 -52.27%, rgba(227, 231, 246, 0) 138.23%);
+    .main_container .culture_code {
+        .info {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 65px 0 97px;
+        }
+        .carts {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            @media(max-width: 853px) {
+                justify-content: center;
+            }
+            .cart {
+                width: 305px;
+                height: 278px;
+                background-color: #FFFFFF;
+                margin-bottom: 37px;
+                border-radius: 8px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                padding-left: 40px;
+                h3 {
+                    font-size: 28px;
+                    color: #3A3A3C;
+                }
+                p {
+                    font-size: 16px;
+                    color: #484C63;
+                }
+            }
+        }
+    }
+}
+
+.fourth_block {
+    .main_container .ww_are {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 50px 0 82px;
+        img {
+            width: 50%;
+        }
+        @media(max-width: 988px) {
+            flex-direction: column-reverse;
+        }
+    }
+}
+
+.fifth_block {
+    .main_container .ww_do {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 150px 0 121px;
+        img {
+            width: 50%;
+        }
+        @media(max-width: 988px) {
+            flex-direction: column;
+        }
+    }
+}
+
+.sixth_block {
+    .main_container .Join_the_squad {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 104px 0 157px;
+        @media(max-width: 988px) {
+            flex-direction: column-reverse;
+        }
+        .info {
+            @media(max-width: 988px) {
+                margin-top: 40px;
+            }
+            p {
+                padding-bottom: 40px;
+            }
+            .button {
+                width: 168px;
+            }
+            img {
+                padding-left: 60px;
+                margin-top: 14px;
+            }
+        }
+    }
+}

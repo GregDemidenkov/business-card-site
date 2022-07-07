@@ -10,27 +10,42 @@
 <body>
 
     <section class = "clock">
-        <div class="clock-circle">
-            <div class="minute_circle"></div>
-            <div class="second_arrow"></div>
-            <div class="minute_arrow"></div>
-            <div class="hour_arrow"></div>
+        <div class="main_container">
+            <div class="clock-circle">
+                <div class="minute_circle"></div>
+                <div class="second_arrow"></div>
+                <div class="minute_arrow"></div>
+                <div class="hour_arrow"></div>
+            </div>
+            <p class = "clock-time">xx:xx:xx</p>
         </div>
-        <p class = "clock-time">xx:xx:xx</p>
     </section>
     <section class = "about_me">
-        <div class = "wrapper">
-            <div onclick="" class="circle">
-                <p>About me</p>
-                <img src="./img/cursor.png" alt="">
+        <div class="main_container">
+            <div class = "container">
+                <div onclick="" class="circle">
+                    <p>About me</p>
+                </div>
+                <div class="wrapper">
+                    <img class = "my_photo" src="./public/img/about_me/my_photo.jpg" alt="">
+                    <div class="info_aboutMe">
+                        <h1>Junior Frontend-developer</h1>
+                        <p>Меня зовут Григорий мне 18 лет, я начинающий web-разработчик.<br>
+                            На протяжении почти 2-ух лет развиваюсь в этой сфере.<br>
+                            Владею HTML, CSS(LESS, SCSS) — на высоком уровне.<br>
+                            Хорошие знания JavaScript + опыт работы на React(сейчас активно его изучаю).<br>
+                            Базовые знания git; Умение работы с JQuery, bootstrap.
+                        </p>
+                    </div>
+                </div>
+                <img class = "cart_1" src="./public/img/about_me/HTML5_logo.svg" alt="">
+                <img class = "cart_2" src="./public/img/about_me/CSS3_logo.svg" alt="">
+                <img class = "cart_3" src="./public/img/about_me/Javascript_logo.svg" alt="">
             </div>
-            <img class = "my_photo" src="./img/my_photo.jpg" alt="">
-            <div class="cart_1">a</div>
-            <div class="cart_2">b</div>
-            <div class="cart_3">c</div>
         </div>
     </section>
 <script src="./js/clock.js"></script>
+<script src="./js/about_me.js"></script>
 <script src="./js/index.js"></script>
 </body>
 </html> 

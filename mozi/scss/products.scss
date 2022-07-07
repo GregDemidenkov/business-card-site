@@ -1,0 +1,72 @@
+.first_block {
+    height: 705px;
+}
+
+.second_block, .thrid_block {
+    margin-top: 20px;
+    border: none;
+    padding-bottom: 111px;
+    .main_container {
+        .CookieYes, .WebToffee {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .back {
+                width: 50%;
+                height: auto;
+            }
+            .info {
+                p {
+                    margin: 30px 0;
+                    line-height: 33px;
+                    font-size: 16px;
+                    @media(max-width: 1050px) {
+                        font-size: .5rem;
+                        line-height: .8rem;
+                    }
+                }
+                .button {
+                    width: 40%;
+                    padding: 16px 10px;
+                    text-align: center;
+                    background: none ;
+                    @media(max-width: 1050px) {
+                        font-size: .7rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.fourth_block {
+    .main_container {
+        .info_block {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 136px 0;
+            h2 {
+                text-align: center;
+                margin-bottom: 20px;
+            }
+            p {
+                text-align: center;
+                margin-bottom: 40px;
+            }
+            .buttons_block {
+                display: flex;
+                justify-content: space-between;
+                width: 308px;
+                text-align: center;
+                .button {
+                    width: 161px;
+                }
+                .button_red {
+                    width: 127px;
+                    padding: 20px 0;
+                }
+            }
+        }
+    }
+}
