@@ -4,48 +4,257 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/index.css">
-    <title>Studing</title>
+
+    <link rel="stylesheet" href="/src/css/index.css">
+    <link rel="stylesheet" href="/src/css/clock/clock.css">
+    <link rel="stylesheet" href="/src/css/about_me/aboutMe.css">
+    <link rel="stylesheet" href="/src/css/laptops/laptops.css">
+    <link rel="stylesheet" href="/src/css/website_layot/website_layot.css">
+    <link rel="stylesheet" href="/src/css/TDL/toDoList.css">
+    <link rel="stylesheet" href="/src/css/store/store.css">
+
+    <title>Web-developer Greg Demidenkov</title>
 </head>
 <body>
-
-    <section class = "clock">
-        <div class="main_container">
-            <div class="clock-circle">
-                <div class="minute_circle"></div>
-                <div class="second_arrow"></div>
-                <div class="minute_arrow"></div>
-                <div class="hour_arrow"></div>
-            </div>
-            <p class = "clock-time">xx:xx:xx</p>
-        </div>
-    </section>
-    <section class = "about_me">
-        <div class="main_container">
-            <div class = "container">
-                <div onclick="" class="circle">
-                    <p>About me</p>
+    <main>
+        <section class = "clock">
+            <div class="main_container">
+                <div class="clock-circle">
+                    <div class="minute_circle"></div>
+                    <div class="second_arrow"></div>
+                    <div class="minute_arrow"></div>
+                    <div class="hour_arrow"></div>
                 </div>
-                <div class="wrapper">
-                    <img class = "my_photo" src="./public/img/about_me/my_photo.jpg" alt="">
-                    <div class="info_aboutMe">
-                        <h1>Junior Frontend-developer</h1>
-                        <p>Меня зовут Григорий мне 18 лет, я начинающий web-разработчик.<br>
-                            На протяжении почти 2-ух лет развиваюсь в этой сфере.<br>
-                            Владею HTML, CSS(LESS, SCSS) — на высоком уровне.<br>
-                            Хорошие знания JavaScript + опыт работы на React(сейчас активно его изучаю).<br>
-                            Базовые знания git; Умение работы с JQuery, bootstrap.
-                        </p>
+                <p class = "clock-time">xx:xx:xx</p>
+            </div>
+        </section>
+
+        <section class = "about_me">
+            <div class="main_container">
+                <div class = "container">
+                    <div onclick="" class="circle">
+                        <p>About me</p>
+                    </div>
+                    <div class="wrapper">
+                        <img class = "my_photo" src="./public/img/about_me/my_photo.jpg" alt="">
+                        <div class="info_aboutMe">
+                            <h1>Junior Frontend-developer</h1>
+                            <p>Меня зовут Григорий мне 18 лет, я начинающий web-разработчик.<br>
+                                На протяжении почти 2-ух лет развиваюсь в этой сфере.<br>
+                                Владею HTML, CSS(LESS, SCSS) — на высоком уровне.<br>
+                                Хорошие знания JavaScript + опыт работы на React(сейчас активно его изучаю).<br>
+                                Базовые знания git; Умение работы с JQuery, bootstrap.
+                            </p>
+                        </div>
+                    </div>
+                    <img class = "cart_1" src="./public/img/about_me/HTML5_logo.svg" alt="">
+                    <img class = "cart_2" src="./public/img/about_me/CSS3_logo.svg" alt="">
+                    <img class = "cart_3" src="./public/img/about_me/Javascript_logo.svg" alt="">
+                </div>
+            </div>
+        </section>
+
+        <section class = "laptop">
+            <div class="main_container">
+                <div class="laptop_for_programmers">
+                    <p class = "prev">Каждому web-разработчику для работы нужен хороший ноутбук.<br>
+                        Ниже представлен список из 8 подходящих ноутбуков.<br>
+                        Информация о ноутбуках взята с локального json файла, который был распаршен при помощи fetch
+                    </p>
+                    <div class="line"></div>
+                    <div class="laptops"></div>
+                    <div class="line"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class = "websiteLayot">
+            <div class="main_container">
+                <p class="prev">Каждый frontend-разработчик должен начинать с основ. 
+                    Вёрстка, вёрстка и ещё раз вёрстка! Далее ссылки на три сайта, которы были сделаны в разное время с разными знаниями технологий</p>
+                
+                <p class="prev_about_hungry">Самый первый большой лендинг без адаптива с использованием less</p>
+                <div class="restaurant">
+                    <img src="restaurantSite/img/Vector.png" alt="">
+                    <h2>HUNGRY PEOPLE</h2>
+                    <button><a href="restaurantSite/index.html">Перейти на сайт</a></button>
+                </div>
+
+                <p class="prev_about_trlm">Второй лендинг с упором на изучение адаптива(сайт адаптивен под все устройства)</p>
+                <div class="trlm_ru">
+                    <img src="sparesSite/img/logo.png" alt="">
+                    <h2>trlm.ru</h2>
+                    <button><a href="sparesSite/index.html">Перейти на сайт</a></button>
+                </div>
+            
+                <p class="prev_about_mozi">Третий многостраничный сайт, в котором впервые был использован scss, а так же адаптив до 768px</p>
+                <div class="mozi">
+                    <img src="mozi/img/logo.svg" alt="">
+                    <h2>Mozi</h2>
+                    <button><a href="mozi/index.html">Перейти на сайт</a></button>
+                </div>
+            </div>
+        </section>
+
+        <section class = "TDL">
+            <div class="main_container">
+                <p class="prev">Во время обучения стоит расписывать свой план, для этого вам поможет приложение &laquo;Заметки&raquo;. Здесь я впервые использовал localStorage.</p>
+                <div class="toDoList">
+                    <h2 class="label-second">Задачи</h2>
+                    <div class="text">
+                        <textarea name="task" class = "taskarea" id="taskArea" maxlength="175" cols="30" rows="10"></textarea>
+                        <button type = "button" id="btn" value="button" class="buttons Save">S a v e</button>
+                    </div>
+                    <div class="line"></div>
+                    <div class="Alltasks"></div>
+                </div>
+            </div>
+        </section>	
+
+        <section class = "Store">
+            <div class="main_container">
+                <p class = "prev">Наверное, каждый во время обучения делает свой небольшой интернет-магазин. Что ж, предлагаю оценить мой. Он был сделан на раннем этапе обучения, 
+                    код очень грязный и моментами логически непонятен, однако на тот момент я лишь хотел самостоятельно реализовать такой проект. Так же, как и с заметками здесь 
+                    используется localStorage</p>
+                <div class="head">
+                    <div class="name-with-icon">
+                        <img src="./public/img/store/Chip.png" alt="">
+                        <h1 class = "name">What a Market</h1>
+                    </div>
+                    <div class="favorites-with-icon">
+                        <img src="./public/img/store/Heart.png" alt="">
+                        <a class = "favorites" href="##">Favorites</a>
+                    </div>
+                    <div class="cart-with-icon">
+                        <img src="./public/img/store/Vector.png" alt="">
+                        <a class="cart" href="##">Cart</a>
                     </div>
                 </div>
-                <img class = "cart_1" src="./public/img/about_me/HTML5_logo.svg" alt="">
-                <img class = "cart_2" src="./public/img/about_me/CSS3_logo.svg" alt="">
-                <img class = "cart_3" src="./public/img/about_me/Javascript_logo.svg" alt="">
+                <div class="line-to-list"></div>
+                <div class="list-of-products">
+                    <div class="cart-of-product">
+                        <img src="./public/img/store/image-1.png" alt="">
+                        <div class="wrapper">
+                            <div class="info-about-product">
+                                <p id = "1-name" class = "name-of-product" >DJI Phantom 2 Vision+</p>
+                                <p id = "1-name-price" class = "price" >$599</p>
+                            </div>
+                            <div class="buttons">
+                                <div id = "1f" onclick="toFavorite(this.id)" class="heart-to-favorite"></div>
+                                <button id = "1" onclick="toCart(this.id)" class="Add">Add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cart-of-product">
+                        <img src="./public/img/store/image-2.png" alt="">
+                        <div class="wrapper">
+                            <div class="info-about-product">
+                                <p id = "2-name" class = "name-of-product" >DJI Phantom 4 Multispectral</p>
+                                <p id = "2-name-price" class = "price" >$1449</p>
+                            </div>
+                            <div class="buttons">
+                                <div id = "2f" onclick="toFavorite(this.id)" class="heart-to-favorite"></div>
+                                <button id = "2" onclick="toCart(this.id)" class="Add">Add to cart</button>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="cart-of-product">
+                        <img src="./public/img/store/image-3.png" alt="">
+                        <div class="wrapper">
+                            <div class="info-about-product">
+                                <p id = "3-name" class = "name-of-product" >DJI Phantom 4 PRO</p>
+                                <p id = "3-name-price" class = "price" >$739</p>
+                            </div>
+                            <div class="buttons">
+                                <div id = "3f" onclick="toFavorite(this.id)" class="heart-to-favorite"></div>
+                                <button id = "3" onclick="toCart(this.id)" class="Add">Add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cart-of-product">
+                        <img src="./public/img/store/image-4.png" alt="">
+                        <div class="wrapper">
+                            <div class="info-about-product">
+                                <p id = "4-name" class = "name-of-product" >4 Series — Intelligent Flight Battery</p>
+                                <p id = "4-name-price" class = "price" >$186</p>
+                            </div>
+                            <div class="buttons">
+                                <div id = "4f" onclick="toFavorite(this.id)" class="heart-to-favorite"></div>
+                                <button id = "4" onclick="toCart(this.id)" class="Add">Add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cart-of-product">
+                        <img src="./public/img/store/image-5.png" alt="">
+                        <div class="wrapper">
+                            <div class="info-about-product">
+                                <p id = "5-name" class = "name-of-product" >DJI Phantom 3 — Intelligent Flight Battary</p>
+                                <p id = "5-name-price" class = "price" >$98</p>
+                            </div>
+                            <div class="buttons">
+                                <div id = "5f" onclick="toFavorite(this.id)" class="heart-to-favorite"></div>
+                                <button id = "5" onclick="toCart(this.id)" class="Add">Add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cart-of-product">
+                        <img src="./public/img/store/image-6.png" alt="">
+                        <div class="wrapper">
+                            <div class="info-about-product">
+                                <p id = "6-name" class = "name-of-product" >DJI Phantom 4 PRO MAX</p>
+                                <p id = "6-name-price" class = "price" >$1199</p>
+                            </div>
+                            <div class="buttons">
+                                <div id = "6f" onclick="toFavorite(this.id)"  class="heart-to-favorite"></div>
+                                <button id = "6" onclick="toCart(this.id)" class="Add">Add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class = "to_be_continued">
+            <div class="main_container">
+                <p class = "prev">Также на моём github можно найти React приложение интернет магазина пицц, который был сделан по курсу на ютубе. 
+                    Вёрстка была сделана самостоятельна, а вот весь функционал я делал строго по уроку, что позволило мне познакомиться с основными положениями React разработки. 
+                    В ближайшем будущем планирую с головой окунуться в его изучение.</p>
+            </div>
+        </section>
+    </main>
+
+    <div class = "overplay">
+        <div class = "popup">
+            <h2 class = "Post" >Postponed</h2>
+            <div class = "close-popup"></div>
+            <div class = "elementS"></div>
+        </div>
+    </div>
+
+    <div class = "overplay-2">
+        <div class = "popup-2">
+            <h2 class = "Cart">Cart</h2>
+            <div class = "close-popup-2"></div>
+            <div class = "wrapForCart">
+                <div class = "elementsInCart"></div>
+                <div class = "infoAboutCart">
+                    <div id = 'totalCost' class="totalCost">Total Cost: 0$</div>
+                    <div id = 'quantity' class="products">Quantity of goods: 0</div>
+                    <button>Proceed to Checkout</button>
+                </div>
             </div>
         </div>
-    </section>
-<script src="./js/clock.js"></script>
-<script src="./js/about_me.js"></script>
-<script src="./js/index.js"></script>
+    </div>
+
+<!-- Scripts -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
+
+<script src="/src/js/clock.js"></script>
+<script src="/src/js/about_me.js"></script>
+<script src="/src/js/laptop.js"></script>
+<script src="/src/js/toDoList.js"></script>
+<script src="/src/js/Store.js"></script>
+
 </body>
 </html> 
