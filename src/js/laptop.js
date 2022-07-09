@@ -21,7 +21,7 @@ const printLaptops = (arrayLaptops) => {
   })
 }
 
-fetch('/public/json/dataLaptops.json')
+fetch('./public/json/dataLaptops.json')
   .then((res) => res.json())
   .then((data) => {
     const arrayLaptops = JSON.parse(JSON.stringify(data.laptops))
