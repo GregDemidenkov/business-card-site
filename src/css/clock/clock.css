@@ -7,7 +7,7 @@
 
 .clock-circle {
   position: relative;
-  background-image: url(/../public/img/clock/clock_face.svg);
+  background-image: url(../../../public/img/clock/clock_face.svg);
   background-color: #b3c0c8;
   background-position: center;
   background-size: contain;
